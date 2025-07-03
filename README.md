@@ -1,5 +1,9 @@
 # 📊 API Research and Documentation
 
+The **codebase** is a proof-of-concept (PoC) and a backend application. It includes an Express server (server.js) that exposes various endpoints (e.g., /api/polygon/:symbol, /api/marketstack/:symbol) for fetching stock data from Marketstack and Polygon.io. Additionally, index.js and test.js further demonstrate API functionality and comparative testing.
+
+**Note:** Marketstack's free plan is limited to 100 calls per month, and Polygon.io's free mode also includes a limited quota.
+
 A comparative study of four financial market data providers: **Finazon, Twelve Data, Marketstack, and Polygon.io**. This document summarizes their features, strengths, and best use cases to help in selecting the right provider for projects requiring real-time and historical financial data.
 
 ---
